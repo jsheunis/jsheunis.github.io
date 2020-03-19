@@ -47,7 +47,7 @@ The focus of this project, and that of my PhD, is to develop new and updated acq
 How are real-time fMRI neurofeedback researchers processing their participants' BOLD signals? Which methods are they using? Do they report quality checks? Can we investigate this and learn more about what influences the neurofeedback signal and study outcomes?
 By reviewing 128 recent fMRI neurofeedback studies, we set out to answer these questions, and more.
 
-You can find the preprint [here](https://doi.org/10.31219/osf.io/xubhq), some code and data [here](https://github.com/jsheunis/quality-and-denoising-in-rtfmri-nf), and interactively explore the summarised studies [here](https://mybinder.org/v2/gh/jsheunis/quality-and-denoising-in-rtfmri-nf/master). 
+You can find the preprint [here](https://doi.org/10.31219/osf.io/xubhq), some code and data [here](https://github.com/jsheunis/quality-and-denoising-in-rtfmri-nf), and interactively explore the summarised studies [here](https://rtfmri-methods.herokuapp.com/). 
 
 ***Real-time (fMRI) quality control***
 
