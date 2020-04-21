@@ -282,7 +282,7 @@ But there's room for improvement:
 ### 1 - Octave/SPM12 compatibility
 
 As mentioned in [this issue](https://github.com/spm/spm-notebooks/issues/1) and explained on the [SPM12 wiki](https://en.wikibooks.org/wiki/SPM/Octave#MATLAB/Octave_compatibility),
-a more recent version of Octave would be ideal. Additionally, this would negate the need for te current `.mex`-file workaround used in the `postBuild` script.
+a more recent version of Octave would be ideal. Additionally, this would negate the need for the current `.mex`-file workaround used in the `postBuild` script.
 
 ### 2 - Plotting and figure display
 
@@ -308,4 +308,4 @@ Perhaps it is already possible (if so, please let me know!) and perhaps it needs
  
 ## The end
 
-Thanks for following along! If you're interested in contirbuting or learning more, please feel free to reach out via the GitHub repository.
+Thanks for following along! If you're interested in contributing or learning more, please feel free to reach out via the GitHub repository.
