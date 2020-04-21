@@ -8,29 +8,34 @@ image: "../blog/assets/binder_logo_small.png"
 show-avatar: true
 ---
 
+![framework](../blog/assets/jupyter_octave_spm12_binder.png)
+
+*The framework of tools covered in this post*
+
 I previously shared a post about setting up a reproducible environment for [fMRI analysis with Code Ocean](https://jsheunis.github.io/2018-10-31-reproducible-fmri-codeocean/).
 In this post I'll cover how you can do the same with a framework of free and open source services, which rests mainly on [Binder](https://mybinder.org/).
 
 If you don't want to do all of the background reading, here are the TLDR links:
-- [Github repository]()
-- [Reproducible environment on Binder]()
-- [Step-by-step on how to set it all up]()
+- [Github repository](https://github.com/jsheunis/spm12-octave-jupyter/)
+- [Reproducible environment on Binder](https://mybinder.org/v2/gh/jsheunis/spm12-octave-jupyter/master)
+- [Step-by-step on how to set it all up](#steps)
 
 ## Reproducible environments
 
 Since starting [my journey with Python](https://twitter.com/fmrwhy/status/1106681592834076672?s=20) and the wider ecosystem of open source tools and practices in neuroimaging,
-I've been using Jupyter notebooks and Binder regularly. And it's great!
+I've been using [Jupyter](https://jupyter.org/) notebooks and Binder regularly. And it's great!
 It's such an easy way (after the initial setup) to allow others to run your exact analysis on the same data using the exact same code and software/library versions.
 With the traditional idea of a journal articles and the accompanying archaic publishing system needing a complete overhaul (viva la revolución \\:D/),
 the combination of Jupyter and Binder gets us a long way towards sharing open, reproducible and future-aware scientific content.
 I love how this illustration by [Juliette Taka](https://twitter.com/JulietteTaka) captures the core of what I'm trying to get at:
 
 ![reproprocess](http://juliettetaka.com/user/pages/02.sketchnote/reproducible_logbook.png)
+
 *The process of generating reproducible research output. Source: http://juliettetaka.com/*
 
 Another great aspect is the fact that it's free (*gratis*): you can use most of these Python-related resources without paying a license fee.
 As die-hard open so(u)rcerers (yes, that expression exists now) will point out, this is not the case for Matlab.
-And neither, one might think, for Matlab libraries.
+And neither, one might think, for Matlab libraries that depend on you having a Matlab license.
 However, with the combination of Matlab libraries (like [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/download/)),
 an [Octave kernel](https://github.com/Calysto/octave_kernel), [Jupyter notebooks](https://jupyter.org/) and [Binder](https://mybinder.org/),
 this is indeed possible. You can share a fully reproducible environment with Matlab-turned-Octave code for free.
@@ -65,7 +70,7 @@ conda create -n spm12-octave-jupyter python
 conda activate spm12-octave-jupyter
 # Inside the environment, use pip to install jupyter
 pip install jupyter
-# After installaiton, run jupyter notebook
+# After installation, run jupyter notebook
 jupyter notebook
 # this opens a new tab in your browser with the jupyter notebook
 ```
@@ -106,7 +111,7 @@ make PLATFORM=octave install
 I've written many SPM12 and Matlab based scripts and functions to preprocess and analyse functional neuroimaging data,
 and have been looking for a way to share this in a reproducible format (apart from static code shared via GitHub). I've [shared some tutorials before](https://jsheunis.github.io/2018-06-28-spm12-matlab-scripting-tutorial-1/),
 but it would be so much better to allow readers to interact with the code as they read through the tutorial.
-This lead me to the setup that I'm currently describing.
+This lead me to the setup that I describe below.
 
 ## Binder
 
@@ -119,20 +124,23 @@ From their [website](https://mybinder.org/), Binder:
 Have a repository full of Jupyter notebooks? With Binder, open those notebooks in an executable environment, making your code immediately reproducible by anyone, anywhere.
 
 The core of how Binder works is explained well with this awesome illustration:
+
 ![binder](../blog/assets/BinderHub.jpg)
+
 *How does Binder work? Image created by [Scriberia](http://www.scriberia.co.uk/) for [The Turing Way](https://github.com/alan-turing-institute/the-turing-way) community and used under a CC-BY licence. [Zenodo record](https://zenodo.org/record/3332808#.Xp4XGNMzbR0).*
 
-Main steps include:
-1. Grab content from a specified public code repository (e.g. via GitHub, GitLab, Bitbucket). This may include data, scripts, Jupyter notebooks, and Binder configuration files.
+The main steps of Binder include:
+1. Grab content from a specified public code repository (e.g. via GitHub, GitLab, Bitbucket, or similar). This may include data, scripts, Jupyter notebooks, and Binder configuration files.
 2. Automatically build a [Docker](https://www.docker.com/) image of the repository using [`repo2docker`](https://repo2docker.readthedocs.io/en/latest/).
 3. Serve the reproducible computational environment (i.e. the Docker image) through the cloud.
 
-A much more accurate account of the above is provided in the [Binder documentation](https://mybinder.readthedocs.io/en/latest/index.html).
+A much more accurate account of these steps is provided in the [Binder documentation](https://mybinder.readthedocs.io/en/latest/index.html).
 Other useful resources include:
 - The [From Zero to Binder!](https://github.com/alan-turing-institute/the-turing-way/blob/master/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder.md) tutorial by Sarah Gibson at The Alan Turing Institute.
 - A long list of [sample Binder-ready Github repositories](https://mybinder.readthedocs.io/en/latest/sample_repos.html), including [one for Octave](https://github.com/binder-examples/octave).
 - A [list of configuration files](https://mybinder.readthedocs.io/en/latest/config_files.html) that are useful when making your repository Binder-ready.
 
+<div id='steps'></div>
 
 ## Setting it all up
 
@@ -152,6 +160,10 @@ Step by step, this is how to do it:
 
 It should be public so that Binder can discover it. You can include `README` and `LICENSE` files for good measure.
 
+This is what my repo looks like after including all of the files described below:
+
+![binder](../blog/assets/github_repo.png)
+
 ### 2 - Include configuration file `environment.yml`
 
 [This file](https://github.com/jsheunis/spm12-octave-jupyter/blob/master/environment.yml) contains the following:
@@ -160,6 +172,7 @@ It should be public so that Binder can discover it. You can include `README` and
 dependencies:
 - octave_kernel
 ``` 
+
 which is how the `octave_kernel` Python package is installed, via `conda-forge`. 
 
 ### 3 - Include configuration file `apt.txt`
@@ -177,11 +190,11 @@ awscli
 This is a list of [Debian](https://www.debian.org/) packages that will be installed with `apt-get`.
 We specifically need this in order to install GNU Octave.
 We also install Octave-related packages that support its use in a Jupyter notebook,
-as well as `curl` to download processing scripts and `awscli` to download fMRIn data from [OpenNeuro](https://openneuro.org/).
+as well as `curl` to download processing scripts and `awscli` to download fMRI data from [OpenNeuro](https://openneuro.org/).
 
 It is technically also an option to include `octave` as a line in the `environment.yml` file, which would install it via `conda-forge`.
 However, you have to take into account which Octave versions are distributed via the different package distribution systems.
-Currently, the `apt.txt` route installs `octave 4.2.2`, while `conda-forge` [only has `4.2.1` available](https://anaconda.org/conda-forge/octave). See [this issue](https://github.com/binder-examples/octave/issues/1) for more information.
+Currently, at the time of writing this post, the `apt.txt` route installs `octave 4.2.2`, while `conda-forge` [only has `4.2.1` available](https://anaconda.org/conda-forge/octave). See [this issue](https://github.com/binder-examples/octave/issues/1) for more information.
 
 
 ### 4 - Include configuration file `postBuild`
@@ -209,17 +222,18 @@ octave --no-gui --eval "addpath (fullfile (getenv (\"HOME\"), \"spm12\")); savep
 
 aws s3 sync --no-sign-request s3://openneuro.org/ds000157 ds000157-download/ --exclude "*" --include "sub-01/*"
 ````
+
 This code does the following:
-- Download (using `curl`), extract and install (in names directories) the following GitHub repositories:
-  - Some of my Matlab and SPM12-based scripts from [this repo](https://github.com/jsheunis/matlab-spm-scripts-jsh)
-  - [dicm2nii](https://github.com/xiangruili/dicm2nii), which is great for reading, writing and visualising NIfTI files. I used the code from [my fork](https://github.com/jsheunis/dicm2nii), since I updated some files.
-  - [SPM12](https://github.com/spm/spm12/archive/r7771) for reasons which are probably obvious by now. A [patch](https://github.com/spm/spm-docker/blob/master/octave/spm12_r7771.patch) related to Octave is also installed.
-- Compile the MEX files for Octave
-- In the SPM12 directory, find and delete all `mat2file*.*` files except for `mat2file.mex` (and do the same for `file2mat*.*` files). This is needed due to a bug in Octave something something MEX files something something private directories.
+1. Download (using `curl`), extract and install (in named directories) the following GitHub repositories:
+    1. Some of my Matlab and SPM12-based scripts from [this repo](https://github.com/jsheunis/matlab-spm-scripts-jsh)
+    2. [dicm2nii](https://github.com/xiangruili/dicm2nii), which is great for reading, writing and visualising NIfTI files. I used the code from [my fork](https://github.com/jsheunis/dicm2nii), since I updated some files.
+    3. [SPM12](https://github.com/spm/spm12/archive/r7771) for reasons which are probably obvious by now. A [patch](https://github.com/spm/spm-docker/blob/master/octave/spm12_r7771.patch) related to Octave is also installed.
+2. Compile the MEX files for Octave
+3. In the SPM12 directory, find and delete all `mat2file*.*` files except for `mat2file.mex` (and do the same for `file2mat*.*` files). This is needed due to a bug in Octave something something MEX files something something private directories.
 For more information on the "something something", dear reader, please have a look at [this issue](https://github.com/spm/spm-notebooks/issues/1).
 This is also related to the Octave version issue mentioned previously, since having a more recent version of Octave available would negate the need for the current workaround.
-- Add the directories containing the downloaded code to the Octave path.
-- Use `awscli` to download a single subject's fMRI data from [OpenNeuro/ds000157](https://openneuro.org/datasets/ds000157/versions/00001).
+4. Add the directories containing the downloaded code to the Octave path.
+5. Use `awscli` to download a single subject's fMRI data from [OpenNeuro/ds000157](https://openneuro.org/datasets/ds000157/versions/00001).
 
 ### 5 - Include Jupyter notebooks (`*.ipynb` files)
 
@@ -245,6 +259,7 @@ All that is left to do is to point Binder to the repository:
 - You can also copy the code for the "Launch Binder" badge to add to your README file.
 
 ![binder](../blog/assets/binder_repo_link.png)
+
 *A snapshot from mybinder.org.*
 
 The launch process might take several minutes depending on your requirements and whether a pre-built image is already available (I've waited up to 15min before, but it's mostly shorter).
@@ -253,9 +268,44 @@ Upon successful launch, you should see the following directory/file browser setu
 
 ![binder](../blog/assets/jupyter_browser.png)
 
-Currently, the notebooks include:
+Currently, there are two notebooks:
 - `spm12_octave_jupyter_basics.ipynb` - which runs through some basic commands and functonalities
 - `spm12_scripting_tutorial.ipynb` - which is step by step SPM12 scripting tutorial based on my [original post](https://jsheunis.github.io/2018-06-28-spm12-matlab-scripting-tutorial-3/) and which achieves essentially the same as the Code Ocean compute capsule [described here](https://jsheunis.github.io/2018-10-31-reproducible-fmri-codeocean/).  
 
 
-## Notes and disclaimers
+## Notes, disclaimers, improvements
+
+As I explained before, this a minimum viable product.
+It achieves the main goal of having a reproducible cloud-based environment for computations using Matlab code and SPM12.
+But there's room for improvement:
+
+### 1 - Octave/SPM12 compatibility
+
+As mentioned in [this issue](https://github.com/spm/spm-notebooks/issues/1) and explained on the [SPM12 wiki](https://en.wikibooks.org/wiki/SPM/Octave#MATLAB/Octave_compatibility),
+a more recent version of Octave would be ideal. Additionally, this would negate the need for te current `.mex`-file workaround used in the `postBuild` script.
+
+### 2 - Plotting and figure display
+
+Some basic plotting functionality is demonstrated in the `spm12_octave_jupyter_basics.ipynb` notebook.
+More extensive or smarter use of the different plotting backends and plot formatting options (e.g. [line magic commands](https://github.com/Calysto/metakernel/blob/master/metakernel/magics/README.md)) could perhaps lead to prettier and more versatile plots.
+
+Additional work is necessary to show the output of SPM12 processes inline in the notebook.
+When running SPM12 scripts in your local Matlab environment, outputs from functions will often display automatically (or explicitly, if called directly) via the SPM graphical user interface.
+This will not be the case in the Jupyter notebook, and you might have to dig into SPM12 functions to see how these plots are created in order for you to create and display them explicitly.
+
+### 3 - Interactivity
+
+Interactivity through the use of [widgets](https://ipywidgets.readthedocs.io/en/latest/) is a great way to expand the reach of your work with Jupyter notebooks.
+A simple and applicable example is the [niwidgets](https://nipy.org/niwidgets/) package that allows you to scroll through the 3 dimensions of a brian image in a notebook:
+
+![niwidgetgif](https://nipy.org/niwidgets/_images/example.gif)
+
+*Gif source: https://nipy.org/niwidgets/_images/example.gif*
+
+I have not yet found a way to do this easily in a notebook with an Octave kernel.
+I should add that I have not searched far and wide, and my knowledge about how Jupyter notebooks interact with the Octave kernel on a low level is not enough to make something jump to mind.
+Perhaps it is already possible (if so, please let me know!) and perhaps it needs some work, but this would be a great addition to the current framework.
+ 
+## The end
+
+Thanks for following along! If you're interested in contirbuting or learning more, please feel free to reach out via the GitHub repository.
