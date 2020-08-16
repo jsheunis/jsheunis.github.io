@@ -15,13 +15,16 @@ Things I'm good at:
 - Project management
 - Matlab programming
 - Real-time fMRI analysis methods
+- Multi-echo fMRI acquisition and anaysis methods
 - fMRI data quality control
 - Intricacies of neuroimage data sharing under GDPR
 - Software tools for sharing data and code
+- Open research practices
 
 Things I'm getting better at:
 - Python programming
 - Jupyter notebooks/lab, Binder
+- Plotly Dash
 - Scientific data visualisation
 - Github and git
 

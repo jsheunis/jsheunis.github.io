@@ -21,7 +21,9 @@ My current Phd research focuses on two topics within the broad field of function
 1. Developing new signal processing methods the improve the quality of real-time functional MRI signals, for use in clinical applications like neurofeedback
 2. Developing software tools and processes that assist fMRI researchers in implementing best practices for data quality control and methods reporting
 
-My scientific interest stretches beyond these topics and somewhat more broadly into how we can improve transparency and reproducibility in science. I'm particularly interested in developing and sharing tools and methods that make our jobs as researchers easier, while simultaneously improving the scientific record or the way in which it can be queried, summarised and reused. This includes tools and processes for code sharing, data sharing, reproducible analysis environments, 
+My scientific interest stretches beyond these topics and somewhat more broadly into how we can improve transparency and reproducibility in science.
+I'm particularly interested in developing and sharing tools and methods that make our jobs as researchers easier, while simultaneously improving the scientific record or the way in which it can be queried, summarised and reused.
+This includes tools and processes for code sharing, data sharing, and reproducible analysis environments. 
 
 Whenever possible, I try to embed the concepts of collaboration, team science, community-centered project work, and openness into my work. 
 
@@ -41,7 +43,10 @@ I have collaborated on and generated some scientific output related to my resear
 <div id='articles'></div>
 ## Articles
 
-Tomas Ros, Stefanie Enriquez-Geppert, Vadim Zotev, Kymberly Young, ... , Robert T. Thibault. 2020. ***Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist).*** Brain awaa009..
+Pernet, Cyril R., Stephan Heunis, Peer Herholz, and Yaroslav O. Halchenko. 2020. ***The Open Brain Consent: Informing Research Participants and Obtaining Consent to Share Brain Imaging Data.*** PsyArXiv.
+**Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.31234/osf.io/f6mnp)
+
+Tomas Ros, Stefanie Enriquez-Geppert, Vadim Zotev, Kymberly Young, ... , Robert T. Thibault. 2020. ***Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist).*** Brain. 2020; 143, 1674–1685,
 **Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1093/brain/awaa009)
 [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.31234/osf.io/nyx84)
 <details>
@@ -49,16 +54,18 @@ Tomas Ros, Stefanie Enriquez-Geppert, Vadim Zotev, Kymberly Young, ... , Robert 
   
 Tomas Ros, Stefanie Enriquez-Geppert, Vadim Zotev, Kymberly Young, Guilherme Wood, Susan Whitfield-Gabrieli, Patrik Vuilleumier,Feng Wan, François Vialatte,  Dimitri Van De Ville, Doron Todder, Tanju Surmeli, James Sulzer, Ute Strehl, Barry Sterman, Naomi Steiner, Bettina Sorger, Surjo Soekadar,  Ranganatha  Sitaram,  Leslie  Sherlin,  Michael  Schönenberg,  Frank  Scharnowski,  Manuel Schabus,  Katya  Rubia,  Agostinho  Rosa,  Miriam  Reiners,  Jaime  Pineda,  Christian  Paret,  Alexei Ossadtchi,Andrew Nicholson, Wenya Nan, Javier Minguez, Jean-Arthur Micoulaud-Franchi, David M. A. Mehler, Michael Lührs, Joel Lubar, Fabien Lotte, David E. J. Linden, Jarrod Lewis-Peacock, Mikhail  Lebedev,  Ruth  Lanius,  Andrea  Kübler,Cornelia  Kranczioch,  Yury  Koush,  Lilian  Konicar, Simon H. Kohl, Silivia E. Kober, Manousos Klados, Camille Jeunet, Tieme Janssen, Rene J. Huster, Kerstin  Hoedlmoser,  Laurence  Hirshberg,  Stephan  Heunis,  Talma  Hendler,  Michelle  Hampson, Adrian  Guggisberg,  John  Gruzelier,Rainer  Göbel,  Nicolas  Gninenko,  Alireza  Gharabaghi,  Paul Frewen, Thomas Fovet, Thalia Fernandez, Carlos Escolano, Ann-Christine Ehlis, Renate Drechsler, R Christopher deCharms, Stefan Debener, Dirk De Ridder, Eddy Davelaar, Marco Congedo, Marc Cavazza, Rien M. H. M. Breteler, Daniel Brandeis, Jerzy Bodurka, Niels Birbaumer, Olga Bazanova, Robert Bauer, Beatrix Barth, Panagiotis Bamidis, Tibor Auer, Martijn Arns, Robert T. Thibault.
 </details> 
-
-Botvinik-Nezer, R., Holzmeister, F., Camerer, C.F., Dreber, A., ... , Nichols, T.E., Poldrack, R.A., Schonberg, T., 2019. ***Variability in the analysis of a single neuroimaging dataset by many teams.*** bioRxiv 843193.
-**Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.1101/843193)
+  
+Botvinik-Nezer, R., Holzmeister, F., Camerer, C.F., Dreber, A., ... , Nichols, T.E., Poldrack, R.A., Schonberg, T., 2019. ***Variability in the analysis of a single neuroimaging dataset by many teams.*** Nature 582, 84–88 (2020).
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1038/s41586-020-2314-9) 
+[<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.1101/843193)
+[<img src="https://img.shields.io/badge/-Twitter%20thread-00acee" height="18px" >](https://twitter.com/russpoldrack/status/1263173122875777026)
 <details>
   <summary>[show all authors]</summary>
   
 Botvinik-Nezer, R., Holzmeister, F., Camerer, C.F., Dreber, A., Huber, J., Johannesson, M., Kirchler, M., Iwanir, R., Mumford, J.A., Adcock, A., Avesani, P., Baczkowski, B., Bajracharya, A., Bakst, L., Ball, S., Barilari, M., Bault, N., Beaton, D., Beitner, J., Benoit, R., Berkers, R., Bhanji, J., Biswal, B., Bobadilla-Suarez, S., Bortolini, T., Bottenhorn, K., Bowring, A., Braem, S., Brooks, H., Brudner, E., Calderon, C., Camilleri, J., Castrellon, J., Cecchetti, L., Cieslik, E., Cole, Z., Collignon, O., Cox, R., Cunningham, W., Czoschke, S., Dadi, K., Davis, C., Luca, A.D., Delgado, M., Demetriou, L., Dennison, J., Di, X., Dickie, E., Dobryakova, E., Donnat, C., Dukart, J., Duncan, N.W., Durnez, J., Eed, A., Eickhoff, S., Erhart, A., Fontanesi, L., Fricke, G.M., Galvan, A., Gau, R., Genon, S., Glatard, T., Glerean, E., Goeman, J., Golowin, S., González-García, C., Gorgolewski, K., Grady, C., Green, M., Moreira, J.G., Guest, O., Hakimi, S., Hamilton, J.P., Hancock, R., Handjaras, G., Harry, B., Hawco, C., Herholz, P., Herman, G., Heunis, S., Hoffstaedter, F., Hogeveen, J., Holmes, S., Hu, C.-P., Huettel, S., Hughes, M., Iacovella, V., Iordan, A., Isager, P., Isik, A.I., Jahn, A., Johnson, M., Johnstone, T., Joseph, M., Juliano, A., Kable, J., Kassinopoulos, M., Koba, C., Kong, X.-Z., Koscik, T., Kucukboyaci, N.E., Kuhl, B., Kupek, S., Laird, A., Lamm, C., Langner, R., Lauharatanahirun, N., Lee, H., Lee, S., Leemans, A., Leo, A., Lesage, E., Li, F., Li, M., Lim, P.C., Lintz, E., Liphardt, S., Vermeer, A.L., Love, B., Mack, M., Malpica, N., Marins, T., Maumet, C., McDonald, K., McGuire, J., Melero, H., Leal, A.M., Meyer, B., Meyer, K., Mihai, P., Mitsis, G., Moll, J., Nielson, D., Nilsonne, G., Notter, M., Olivetti, E., Onicas, A., Papale, P., Patil, K., Peelle, J.E., Pérez, A., Pischedda, D., Poline, J.-B., Prystauka, Y., Ray, S., Reuter-Lorenz, P., Reynolds, R., Ricciardi, E., Rieck, J., Rodriguez-Thompson, A., Romyn, A., Salo, T., Samanez-Larkin, G., Sanz-Morales, E., Schlichting, M., Schultz, D., Shen, Q., Sheridan, M., Shiguang, F., Silvers, J., Skagerlund, K., Smith, A., Smith, D., Sokol-Hessner, P., Steinkamp, S., Tashjian, S., Thirion, B., Thorp, J., Tinghög, G., Tisdall, L., Tompson, S., Toro-Serey, C., Torre, J., Tozzi, L., Truong, V., Turella, L., Veer, A.E. van’t, Verguts, T., Vettel, J., Vijayarajah, S., Vo, K., Wall, M., Weeda, W.D., Weis, S., White, D., Wisniewski, D., Xifra-Porxas, A., Yearling, E., Yoon, S., Yuan, R., Yuen, K., Zhang, L., Zhang, X., Zosky, J., Nichols, T.E., Poldrack, R.A., Schonberg, T.
 </details> 
 
-Heunis, S., Lamerichs, R., Zinger, S., Caballero‐Gaudes, C., Jansen, J.F.A., Aldenkamp, B., Breeuwer, M., 2020. ***Quality and denoising in real‐time functional magnetic resonance imaging neurofeedback: A methods review. Human Brain Mapping***
+Heunis, S., Lamerichs, R., Zinger, S., Caballero‐Gaudes, C., Jansen, J.F.A., Aldenkamp, B., Breeuwer, M., 2020. ***Quality and denoising in real‐time functional magnetic resonance imaging neurofeedback: A methods review.*** Human Brain Mapping. 2020; 41: 3439–3467.
 **Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1002/hbm.25010)
 [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.31219/osf.io/xubhq)
 [<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/jsheunis/quality-and-denoising-in-rtfmri-nf)
@@ -90,6 +97,10 @@ Heunis, J.S., Besseling, R., Lamerichs, R., De Louw, A., Aldenkamp, B., Bergmans
 
 <div id='talks'></div>
 ## Talks / Lectures
+
+Heunis, J.S. 2020. ***Brain research data and personal data privacy: practical tips to share and protect.*** Invited talk at the [Think Open Rovereto Workshop 2020](https://event.unitn.it/think-open/). Trento, Italy (online).
+**Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=_3bufely0c0&list=PLiX54geLkpPL4brRcYfnekp42PLJi5eEe&index=4)
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px" >](https://doi.org/10.6084/m9.figshare.12656021.v1)
 
 Heunis, J.S. 2019. ***Real-time (fMRI) quality control.*** Invited lecture at the 2019 international real-time functional imaging and neurofeedback conference: [rtFIN2019](https://www.rtfin2019.org/107020). Aachen, Germany.
 **Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://server12.np.unimaas.nl/mhens_newsletters/2020/Lectures%20RT-Fin/Vortrag%20Heunis.mp4)
