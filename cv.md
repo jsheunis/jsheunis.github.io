@@ -15,7 +15,7 @@ Things I'm good at:
 - Project management
 - Matlab programming
 - Real-time fMRI analysis methods
-- Multi-echo fMRI acquisition and anaysis methods
+- Multi-echo fMRI acquisition and analysis methods
 - fMRI data quality control
 - Intricacies of neuroimage data sharing under GDPR
 - Software tools for sharing data and code
