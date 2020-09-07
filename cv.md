@@ -24,7 +24,7 @@ Things I'm good at:
 Things I'm getting better at:
 - Python programming
 - Jupyter notebooks/lab, Binder
-- Plotly Dash
+- Data dashboards with Plotly Dash
 - Scientific data visualisation
 - Github and git
 
