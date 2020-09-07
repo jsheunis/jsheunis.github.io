@@ -101,6 +101,7 @@ Heunis, J.S., Besseling, R., Lamerichs, R., De Louw, A., Aldenkamp, B., Bergmans
 Heunis, J.S. 2020. ***Hands-on fMRI code and data sharing.*** Invited workshop at the [Food for Psychologists](https://dans.knaw.nl/en/current/events/food-for-psychologists). The Hague, The Netherlands (online).
 **Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=28XzdqbGKoE)
 [<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px" >](https://doi.org/10.6084/m9.figshare.12911165.v1)
+[<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/jsheunis/data-code-workshop-food-for-psych)
 
 Heunis, J.S. 2020. ***Brain research data and personal data privacy: practical tips to share and protect.*** Invited talk at the [Think Open Rovereto Workshop 2020](https://event.unitn.it/think-open/). Trento, Italy (online).
 **Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=_3bufely0c0&list=PLiX54geLkpPL4brRcYfnekp42PLJi5eEe&index=4)
