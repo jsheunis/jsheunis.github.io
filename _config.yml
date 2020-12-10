@@ -21,6 +21,7 @@ description: Stephan Heunis
 # List of links in the navigation bar
 navbar-links:
   Research: "research"
+  Talks: "talks"
   Projects: "projects"
   Software: "software"
   Blog:
