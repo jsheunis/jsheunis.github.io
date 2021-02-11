@@ -4,11 +4,11 @@ title: On studying the quality of real-time functional magnetic resonance imagin
 tags: [quality, real-time, fMRI]
 comments: true
 social-links: true
-image: "../blog/assets/fmrwhy_quality_jsheunis_v2.png"
+image: "../blog/assets/fmrwhy_quality_jsheunis_square.png"
 show-avatar: true
 ---
 
-![framework](../blog/assets/fmrwhy_quality_jsheunis.png)
+![framework](../blog/assets/fmrwhy_quality_jsheunis_large.png)
 
 *During the process of writing up my PhD thesis on the topic **"Quality of real-time fMRI: novel software, sequences and signals"** I've had to describe its background and the reasons motivating its focus areas. What follows is my attempt at making this more generally accessible, essentially exploring the question "why and how should we improve the quality of real-time fMRI?"*
 
