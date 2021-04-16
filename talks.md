@@ -17,6 +17,17 @@ Below is a list of talks that I've given on the topics of fMRI data quality, mul
 [<img src="https://img.shields.io/badge/-Twitter%20thread-00acee" height="18px" >]()
 
 
+Heunis, J.S. 2021. ***Interactive data visualization with Python, Plotly and Dash.*** Demo talk at the [OpenMR Virtual 2021](https://ohbm.github.io/osr2020/) event. Virtual online.
+**Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=fWxWGC4N9lM&list=PLav5iokutJ6rTGrkTcgGuSpTH7egT4xix&index=7)
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://tinyurl.com/openmr-dash-demo)
+[<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/OpenMRBenelux/openmr2021-dataviz-dash-demo)
+
+Heunis, J.S. et al. 2020. ***Open neuroimaging data and personal data privacy: anonymization.*** Panel discussion at the [OHBM Open Science Room 2020](https://ohbm.github.io/osr2020/). Virtual online.
+**Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=j9wFwBxwMvI&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=17)
+
+Heunis, J.S. et al. 2020. ***Open neuroimaging data and personal data privacy: convergence or divergence?*** Panel discussion at the [OHBM Open Science Room 2020](https://ohbm.github.io/osr2020/). Virtual online.
+**Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=-GKKiwMyfH8&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=16)
+
 Heunis, J.S. 2020. ***Hands-on fMRI code and data sharing.*** Invited workshop at the [Food for Psychologists](https://dans.knaw.nl/en/current/events/food-for-psychologists). The Hague, The Netherlands (online).
 **Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=28XzdqbGKoE)
 [<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px" >](https://doi.org/10.6084/m9.figshare.12911165.v1)

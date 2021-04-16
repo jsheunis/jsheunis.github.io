@@ -18,13 +18,13 @@ title: About me
 
 
 <div id='about'></div>
-I'm Stephan, an engineer, aspiring software developer, interested in understanding the human brain slightly more than we currently do, and in doing meaningful work along the way. I work as a Phd candidate in the Electrical Engineering department of the Eindhoven University of Technology. My main research focus is to develop new signal processing methods, software tools and processes to improve the quality of real-time functional magnetic resonance imaging for clinical use.
+I'm Stephan, an engineer, software developer, interested in understanding the human brain slightly more than we currently do, and in doing meaningful work along the way. My PhD research focused on develop new signal processing methods, software tools and processes to improve the quality of real-time functional magnetic resonance imaging for clinical use. Now, I work as a research data and software engineer at the [Psychoinformatics Group](https://www.psychoinformatics.de/index.html) at the [INM-7, Forschungszentrum Jülich](https://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html). I also have a postdoc position at the [SYNC developmental neuroscience lab](https://erasmus-synclab.nl/) at Erasmus University Rotterdam.
 
 <div id='background'></div>
 #### Background
 
 I am a South African in The Netherlands. I have a partner and two kids who are objectively the best three persons in the world (no bias here). 
-I worked two industry jobs for about 4 years after completing an M.Sc. in Mechatronic Engineering. Then I started my current job. 
+I worked two industry jobs for about 4 years after completing an M.Sc. in Mechatronic Engineering. Then I moved to the Netherlands, completed a 4-year PhD project and started my current job. 
 
 <div id='open'></div>
 #### Open sciency stuff

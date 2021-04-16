@@ -15,7 +15,10 @@ title: Research
 
 ---
 <div id='overview'></div>
-My current Phd research focuses on two topics within the broad field of functional magnetic resonance imaging (fMRI) analysis:
+
+My current research and engineering work is with the [Psychoinformatics Group](https://www.psychoinformatics.de/index.html) at the [INM-7, Forschungszentrum Jülich](https://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html), where we develop software and tools for decentralised research data management. This mainly involves [DataLad](https://www.datalad.org/).
+
+Previously, my PhD research focused on two topics within the broad field of functional magnetic resonance imaging (fMRI) analysis:
 
 1. Developing new signal processing methods the improve the quality of real-time functional MRI signals, for use in clinical applications like neurofeedback
 2. Developing software tools and processes that assist fMRI researchers in implementing best practices for data quality control and methods reporting
@@ -42,19 +45,36 @@ I have collaborated on and generated some scientific output related to my resear
 <div id='articles'></div>
 ## Articles
 
+Levitis, E., Praag, C.G. van, Gau, R., Heunis, S., ..., Maumet, C., 2021. ***Centering inclusivity in the design of online conferences.*** PsyArXiv Preprints.
+**Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.31234/osf.io/vj5tu)
+
+<details>
+  <summary>[show all authors]</summary>
+
+Levitis, E., Praag, C.G. van, Gau, R., Heunis, S., DuPre, E., Kiar, G., Bottenhorn, K., Glatard, T., Nikolaidis, A., Whitaker, K., Mancini, M., Niso, G., Afyouni, S., Ortiz, E.A., Appelhoff, S., Arnatkeviciute, A., Atay, M.S., Auer, T., Baracchini, G., Bayer, J.M.M., Beauvais, M.J.S., Bijsterbosch, J., Bilgin, I.P., Bollmann, Saskia, Bollmann, Steffen, Botvinik-Nezer, R., Bright, M.G., Calhoun, V.D., Chen, X., Chopra, S., Chuan-Peng, H., Close, T., Cookson, S., Craddock, C., Vega, A.D.L., Leener, B.D., Demeter, D., Maio, P.D., Dickie, E.W., Eickhoff, S.B., Esteban, O., Finc, K., Frigo, M., Ganesan, S., Ganz, M., Garner, K., Garza-Villarreal, E.A., Gonzalez-Escamilla, G., Goswami, R., Griffiths, J., Grootswagers, T., Guay, S., Guest, O., Handwerker, D.A., Herholz, P., Heuer, K., Huijser, D., Iacovella, V., Joseph, M., Karakuzu, A., Keator, D., Kobeleva, X., Kumar, M., Laird, A., Larson-Prior, L.J., Lautarescu, A., Lazari, A., Gorroño, J.H.L., Li, X.-Y., Lv, J., Mansour, S.L., Meunier, D., Moraczewski, D., Nandi, T., Nastase, S.A., Nau, M., Noble, S., Norgaard, M., Obungoloch, J., Oostenveld, R., Orchard, E.R., Pinho, A.L., Poldrack, R., Qiu, A., Raamana, P.R., Rokem, A., Rutherford, S., Sharan, M., Shaw, T., Syeda, W.T., Testerman, M., Toro, R., Valk, S.L., Bossche, S.V.D., Varoquaux, G., Vasa, F., Veldsman, M., Vohryzek, J., Wagner, A.S., Walsh, R., White, T., zuxfoucault, Xie, X., Yan, C.-G., Yang, Y.-F., Yee, Y., Zanitti, G.E., Gulick, A.V., Duff, E., Maumet, C.
+<details>
+
 
 Heunis, S., Breeuwer, M., Caballero-Gaudes, C., Hellrung, L., Huijbers, W., Jansen, J.F., Lamerichs, R., Zinger, S., and Aldenkamp, A.P. 2020. **The effects of multi-echo fMRI combination and rapid T2*-mapping on offline and real-time BOLD sensitivity.** bioRxiv 2020.12.08.416768.
 **Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.1101/2020.12.08.416768)
+[<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/jsheunis/rt-me-fMRI)
 [<img src="https://img.shields.io/badge/-Twitter%20thread-00acee" height="18px" >](https://twitter.com/fmrwhy/status/1336946297526497283)
 
 
-Heunis, S., Breeuwer, M., Caballero-Gaudes, C., Hellrung, L., Huijbers, W., Jansen, J.F., Lamerichs, R., Zinger, S., and Aldenkamp, A.P. 2020. ***rt-me-fMRI: A task and resting state dataset for real-time, multi-echo fMRI methods development and validation.*** bioRxiv 2020.12.07.414490.
-**Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.1101/2020.12.07.414490)
+Heunis, S., Breeuwer, M., Caballero-Gaudes, C., Hellrung, L., Huijbers, W., Jansen, J.F., Lamerichs, R., Zinger, S., and Aldenkamp, A.P. 2020. ***rt-me-fMRI: A task and resting state dataset for real-time, multi-echo fMRI methods development and validation.*** F1000Research.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.12688/f1000research.29988.1)
+[<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.1101/2020.12.07.414490)
 [<img src="https://img.shields.io/badge/-Twitter%20thread-00acee" height="18px" >](https://twitter.com/fmrwhy/status/1336070517816692739)
 
 
-Pernet, Cyril R., Stephan Heunis, Peer Herholz, and Yaroslav O. Halchenko. 2020. ***The Open Brain Consent: Informing Research Participants and Obtaining Consent to Share Brain Imaging Data.*** PsyArXiv.
-**Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.31234/osf.io/f6mnp)
+Bannier, E., Barker, G., Borghesani, V., ... , Wang, F., Wang, C., Zhu, H. 2021. ***The Open Brain Consent: Informing Research Participants and Obtaining Consent to Share Brain Imaging Data.*** Human Brain Mapping.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1002/hbm.25351)
+[<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.31234/osf.io/f6mnp)
+<details>
+  <summary>[show all authors]</summary>
+
+Bannier, E., Barker, G., Borghesani, V., Broeckx, N., Clement, P., Emblem, K.E., Ghosh, S., Glerean, E., Gorgolewski, K.J., Havu, M., Halchenko, Y.O., Herholz, P., Hespel, A., Heunis, S., Hu, Y., Hu, C.-P., Huijser, D., Vayá, M. de la I., Jancalek, R., Katsaros, V.K., Kieseler, M.-L., Maumet, C., Moreau, C.A., Mutsaerts, H.-J., Oostenveld, R., Ozturk‐Isik, E., Espinosa, N.P.L., Pellman, J., Pernet, C.R., Pizzini, F.B., Trbalić, A.Š., Toussaint, P.-J., Castello, M.V. di O., Wang, F., Wang, C., Zhu, H.
+</details> 
 
 
 Tomas Ros, Stefanie Enriquez-Geppert, Vadim Zotev, Kymberly Young, ... , Robert T. Thibault. 2020. ***Consensus on the reporting and experimental design of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist).*** Brain. 2020; 143, 1674–1685,
