@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Real-time fMRI</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/beige.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<script src="https://kit.fontawesome.com/17e62561a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h3>Quality of real-time functional magnetic resonance imaging</h3>
+				<p><em>Novel software, sequences, and signals</em></p>
+
+				<img src="pics/phd_logo.png" width="200" >
+
+				<table>
+					<tr style="margin:0px; padding: 0px; border: none;">
+						<td colspan="4" style="text-align: center;"><small >Stephan Heunis</small><br style="line-height:0px;">
+							<small><small style="margin-top:7px">
+								<a href="https://twitter.com/fMRwhy" target="_blank"><i class="fab fa-twitter" style="height:30px;margin:3px"></i>@fMRwhy</a>
+							</small></small>&nbsp;&nbsp;
+							<small><small style="margin-top:7px">
+								<a href="https://github.com/jsheunis" target="_blank"><i class="fab fa-github" style="height:30px;margin:3px"></i>jsheunis</a>
+							</small></small>&nbsp;&nbsp;
+							<small><small style="margin-top:7px">
+								<a href="https://jsheunis.github.io/" target="_blank"><i class="fas fa-home" style="height:30px;margin:3px"></i>jsheunis.github.io</a>
+							</small></small>&nbsp;&nbsp;
+							<small><small style="margin-top:7px">
+								<a href="https://jsheunis.github.io/" target="_blank"><i class="fab fa-slideshare" style="height:30px;margin:3px"></i>Slides</a>
+							</small></small>
+						</td>
+					</tr>
+					<tr style="margin:0px; padding: 0px; border: none;">
+						<td width="30%"><small style="margin-top:-15px"><small><a href="https://www.tue.nl/en/research/research-groups/signal-processing-systems/" target="_blank">Signal Processing Systems group</a><br>
+								Department of Electrical Engineering
+							</small></small></td>
+						<td width="25%"><img style="height:30px;margin-top:10px" data-src="pics/tue_logo-cropped.svg" /></td>
+						<td width="15%"><img style="height:30px;margin-top:10px" data-src="pics/philips_logo.svg" /></td>
+						<td width="30%"><img style="height:30px;margin-top:10px" data-src="pics/health_holland_logo.png" /></td>
+					</tr>
+				</table>
+
+
+			</section>
+
+			<section>
+
+				<section data-transition="none">
+					<br>
+					<h3>The human brain...</h3>
+					<img src="pics/brain.png" width="500" >
+					<aside class="notes">
+						hello this is a note
+					</aside>
+				</section>
+
+				<section data-transition="none">
+					<br>
+					<h3>...and how we understand it...</h3>
+					<img src="pics/brain_question.png" width="500" >
+					<aside class="notes">
+						hello this is a note
+					</aside>
+				</section>
+
+				<section data-transition="none">
+					<br>
+					<h3>...under a magnifying glass</h3>
+					<img src="pics/brain_question_magnify.png" width="500" >
+					<aside class="notes">
+						hello this is a note
+					</aside>
+				</section>
+
+			</section>
+
+
+			<section>
+				<section data-transition="none">
+					<br>
+					<h3>Real-time functional magnetic resonance imaging</h3>
+					<img src="pics/rtfmri_overview.png" width="700" >
+					<aside class="notes">
+						hello this is a note
+					</aside>
+				</section>
+				<section data-transition="none">
+					<br>
+					<h3>Functional MRI</h3>
+					<div class="r-stack">
+						<img class="fragment" data-fragment-index="1" src="pics/rtfmri_1.png" >
+						<img class="fragment" data-fragment-index="2" src="pics/rtfmri_2.png" >
+						<img class="fragment" data-fragment-index="3" src="pics/rtfmri_3.png" >
+						<img class="fragment" data-fragment-index="4" src="pics/rtfmri_4.png" >
+						<img class="fragment" data-fragment-index="5" src="pics/rtfmri_5.png" >
+						<img class="fragment" data-fragment-index="6" src="pics/rtfmri_6.png" >
+					</div>
+				</section>
+				<section data-transition="none">
+					<br>
+					<h3>Functional MRI</h3>
+					<small>An interactive statistical map of right-hand finger tapping activity</small>
+					<iframe src="assets/sub-all_task-fingerTapping_space-MNI152_desc-2ndlevel_tmap.html" frameborder="0" height="600" width="800"></iframe>
+					
+				</section>
+				<section data-transition="none">
+					<br>
+					<h3>Functional MRI</h3>
+					<ul>
+						<li>Does not provide real-time information while someone is inside the scanner</li>
+						<li>Can result in extra costs and delays if data quality issues are only detected afterwards</li>
+						<li>Is biased by sources of noise such as head movement, fluctuating heart rate, and breathing cycles of the person being scanned</li>
+					</ul>
+				</section>
+				<section data-transition="none">
+					<br>
+					<h3><u>Real-time</u> functional MRI</h3>
+					<div class="r-stack">
+						<img class="fragment" data-fragment-index="7" src="pics/rtfmri_7.png" >
+						<img class="fragment" data-fragment-index="8" src="pics/rtfmri_8.png" >
+						<img class="fragment" data-fragment-index="9" src="pics/rtfmri_9.png" >
+					</div>
+				</section>
+				<section data-transition="none">
+					<br>
+					<h3><u>Real-time</u> functional MRI</h3>
+					<ul>
+						<li><strong><em>Does</em></strong> provide real-time information while someone is inside the scanner</li>
+						<li>Can <strong><em>prevent</em></strong> extra costs and delays by detecting data quality issues during the scan</li>
+						<li>Is biased by <strong><em>the same</em></strong> sources of noise such as head movement, fluctuating heart rate, and breathing cycles of the person being scanned</li>
+					</ul>
+				</section>
+
+				<section data-transition="none">
+					<br>
+					<h3><u>Quality</u> of real-time fMRI</h3>
+					<img src="pics/rtfmri_overview_magnify.png" width="700" >
+					<aside class="notes">
+						hello this is a note
+					</aside>
+					
+				</section>
+
+
+			</section>
+
+			<section>
+				<br>
+				<h3>Research goals</h3>
+				<br>
+				<ol>
+					<li class="fragment">Understand real-time fMRI data quality</li>
+					<br>
+					<li class="fragment">Develop hardware and software for real-time fMRI analysis and quality control</li>
+					<br>
+					<li class="fragment">Validate real-time multi-echo fMRI methods</li>
+				</ol>
+			</section>			
+
+			<section>
+				<section data-transition="none">
+					<br>
+					<h3>1. Understand real-time fMRI data quality</h3>
+					<br>
+					<table style="display: block;">
+						<tr>
+							<td style="width: 55%;">
+								<ul>
+									<li class="fragment" data-fragment-index="1">Found few existing methodogical studies</li>
+									<li class="fragment" data-fragment-index="2">Developed a comprehensive understanding of real-time fMRI quality</li>
+									<li class="fragment" data-fragment-index="3">Identified multi-echo fMRI as promising avenue of research</li>
+								</ul>
+							</td>
+							<td style="width: 45%; text-align: right;">
+								<div class="r-stack">
+									<img src="pics/7VE.gif" class="fragment current-visible" height="400" data-fragment-index="1">
+									<img src="pics/meme2.jpeg" class="fragment current-visible" height="400" data-fragment-index="2">
+									<img src="pics/meme3.jpeg" class="fragment current-visible" height="400" data-fragment-index="3">
+
+								</div>
+								
+							</td>
+						</tr>
+					</table>
+				</section>
+
+				<section data-transition="none">
+					<br>
+					<h3>1. Understand real-time fMRI data quality</h3>
+					<p>What is multi-echo fMRI?</p>
+					<div class="r-stack">
+						<img class="fragment" data-fragment-index="1" src="pics/me_decay_1.png" >
+						<img class="fragment" data-fragment-index="2" src="pics/me_decay_2.png" >
+						<img class="fragment" data-fragment-index="3" src="pics/me_decay_3.png" >
+						<img class="fragment" data-fragment-index="4" src="pics/me_decay_4.png" >
+					</div>
+				</section>
+				
+				<section data-transition="none">
+					<br>
+					<h3>1. Understand real-time fMRI data quality</h3>
+					<p>What is multi-echo fMRI?</p>
+					<img src="pics/me_decay_5.png" >
+				</section>
+				
+			</section>
+
+			<section>
+				<section>
+					<br>
+					<h3>2. Develop hardware and software</h3>
+					<p><em>Output I</em>: Technical implementation of a real-time, multi-echo pipeline on a 3T Philips Achieva scanner</p>
+					<img src="pics/hardware_system.png" width="600" >
+					
+				</section>
+				<section>
+					<br>
+					<h3>2. Develop hardware and software</h3>
+					<p><em>Output II</em>: rtQC - a software toolbox for real-time quality control of fMRI data</p>
+					<img src="pics/rtqc.png" width="700" >
+				</section>
+				<section>
+					<br>
+					<h3>2. Develop hardware and software</h3>
+					<p><em>Output III</em>: fMRwhy - open software pipelines for multi-echo fMRI analysis and quality reporting</p>
+					<img src="pics/fmrwhy.png" width="600" >
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+					<br>
+					<h3>3. Validate real-time multi-echo fMRI methods</h3>
+					<p><em>Output I</em>: rt-me-fMRI - A dataset for real-time, multi-echo fMRI methods development and validation</p>
+					<img src="pics/dataset.png" width="650" >
+				</section>
+
+				<section>
+					<br>
+					<h3>3. Validate real-time multi-echo fMRI methods</h3>
+					<p><em>Output II</em>: Real-time sensitivity improvements with rapid T2*-mapping</p>
+					<img src="pics/rapid_t2star.png" width="650" >
+				</section>
+
+				<section>
+					<br>
+					<h3>3. Validate real-time multi-echo fMRI methods</h3>
+					<p><em>Output II</em>: Real-time sensitivity improvements with rapid T2*-mapping</p>
+					<iframe src="assets/fig_realtime_psc_fingertapping.html" frameborder="0" width="1000" height="450"></iframe>
+				</section>
+				<section>
+					<br>
+					<h3>3. Validate real-time multi-echo fMRI methods</h3>
+					<p><em>Output II</em>: Real-time sensitivity improvements with rapid T2*-mapping</p>
+					<iframe src="assets/fig_realtime_tCNR_fingertapping.html" frameborder="0" width="1000" height="450"></iframe>
+				</section>
+			</section>
+
+			
+
+			<section>
+				<br>
+				<h3>Conclusions</h3>
+				<br>
+				<br>
+				<ol>
+					<li class="fragment">Understand real-time fMRI data quality ✅</li>
+					<br>
+					<li class="fragment">Develop hardware and software for real-time fMRI analysis and quality control ✅</li>
+					<br>
+					<li class="fragment">Validate real-time multi-echo fMRI methods ✅</li>
+				</ol>
+			</section>
+
+			<section>
+				<br>
+				<h3>Summary</h3>
+				<br>
+				<img src="pics/brain_question.png" width="500" >
+				<!-- <ol>
+					<li class="fragment">Understand real-time fMRI data quality ✅</li>
+					<br>
+					<li class="fragment">Develop hardware and software for real-time fMRI analysis and quality control ✅</li>
+					<br>
+					<li class="fragment">Validate real-time multi-echo fMRI methods ✅</li>
+				</ol> -->
+			</section>
+
+			<section>
+				<br>
+				<h2>thank you</h2>
+
+				<br>
+				<iframe src="https://giphy.com/embed/l41m04gr7tRet7Uas" width="480" height="323" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+				<!-- <iframe src="https://giphy.com/embed/fwDYfOHIvFClrpPh63" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+			</section>
+
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			slideNumber: 'c/t',
+			center: false,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
