@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 project-list:
-  - name: rtfMRI
-    desc: Real-time fMRI analysis, quality control and visualisation
-    url: https://jsheunis.github.io/projects/#rtfmri
-    img: /img/rtqc.png
+  - name: DataLad
+    desc: An open source and free tool for research data management
+    url: https://jsheunis.github.io/projects/#datalad
+    img: /img/datalad_logo.png
   - name: OpenMR Benelux
     desc: Open science and community building in MRI research
     url: https://jsheunis.github.io/projects/#openmrb
@@ -14,65 +14,46 @@ project-list:
     desc: New procedures for neuroimage data sharing under the GDPR 
     url: https://jsheunis.github.io/projects/#gdpr
     img: /img/datasharing.png
+  - name: rtfMRI
+    desc: Real-time fMRI analysis, quality control and visualisation
+    url: https://jsheunis.github.io/projects/#rtfmri
+    img: /img/rtqc.png
 ---
 
-I currently work on multiple projects, some directly related to my Phd, others more broadly to my overall interests. Click on a project below to find out more. If you are interested in learning more or contributing to these projects, feel free to reach out!
+I currently work on multiple projects, some directly related to my work as a research data and software engineer at Research Center Jülich, others more broadly to my overall interests. Some projects were the focus of my PhD work. Click on a project below to find out more. If you are interested in learning more or contributing to these projects, feel free to reach out!
 
 
 {% include list-circles.html items=page.project-list %}
 
-<div id='rtfmri'></div>
+<div id='datalad'></div>
 <br>
-## Real-time fMRI analysis, quality control and visualisation
+
+
+## DataLad
 
 ### Background
-Using functional magnetic resonance imaging (fMRI) we can acquire images of the blood oxygenation levels in our brain.
-By using a model for how the oxygen concentration in blood vessels in the brain relate to energy consumption due to brain activity, fMRI gives us a proxy measure for actual brain activity that we call the BOLD signal.
-In this project we are interested in acquiring, processing, visualising and using this BOLD signal while the patient or study participant is inside the MRI scanner, i.e. in real-time.
-Real-time brain activity can be used for different applications, including brain-computer interfaces (BCIs), hyperscanning, and neurofeedback.
-Neurofeedback entails showing the person inside the scanner a visual representation of their brain activity, and asking them to regulate this level using the visual feedback.
-Our goal is to investigate the use of real-time fMRI neurofeedback in clinical applications. 
+DataLad is a free and open source distributed data management system that keeps track of your data, creates structure, ensures reproducibility, supports collaboration, and integrates with widely used data infrastructure. DataLad supports arbitrarily large datasets, on-demand content retrieval, dataset nesting, data version control, provenance capture, and metadata management. DataLad development is supported primarily by the US National Science Foundation and the German Federal Ministry of Education and Research.
 
 ### Focus
-In preparation for such a clinical trial, however, we first have to ensure the quality of the BOLD signal.
-The BOLD signal contains a lot of noise and can be influenced by a number of sources, including participant movement, participant physiology (breathing and heart rate) and scanner artefacts.
-It is important that a robust signal processing pipeline is used to remove such noise sources in real-time when possible.
-It is also important to visualise and check the quality of the acquired data, both in real-time and after the scanning session.
-The focus of this project, and that of my PhD, is to develop new and updated acquisition, processing and quality checking tools to help us improve the quality of the BOLD signal for real-time use.
 
-### Sub-projects
+As part of the DataLad team, I contribute to the broad DataLad ecosystem through software development, testing, documentation and teaching. My main focus is on automated metadata extraction and usage, specifically with the eye towards improving the FAIRness of (research) data managed with DataLad. To this end, I contribute mainly to the DataLad extensions: [DataLad MetaLad](https://github.com/datalad/datalad-metalad) and [DataLad Catalog](https://github.com/datalad/datalad-catalog).
 
-***Real-time fMRI neurofeedback methods - understanding the literature***
+### Relevant details
 
-How are real-time fMRI neurofeedback researchers processing their participants' BOLD signals? Which methods are they using? Do they report quality checks? Can we investigate this and learn more about what influences the neurofeedback signal and study outcomes?
-By reviewing 128 recent fMRI neurofeedback studies, we set out to answer these questions, and more.
-
-You can find the preprint [here](https://doi.org/10.31219/osf.io/xubhq), some code and data [here](https://github.com/jsheunis/quality-and-denoising-in-rtfmri-nf), and interactively explore the summarised studies [here](https://rtfmri-methods.herokuapp.com/). 
-
-***Real-time (fMRI) quality control***
-
-Loads of researchers have years and years of experience understanding and correcting quality issues in real-time fMRI data.
-Can we collate all of this into a set of best practices? And can we build software tools to make them more accessible to researchers?
-Within the fMRI neurofeedback community we are collaborating on such a Matlab-based software tool: rtQC.
-The toolbox currently needs beta-testers, so please reach out if you are interested.
-
-Find out more about rtQC on this [poster](https://doi.org/10.5281/zenodo.3239084), and check out the code [here](https://github.com/rtQC-group/rtQC).
-
-***Real-time multi-echo fMRI***
-
-For this project, we are specifically interested in developing multi-echo fMRI acquisition and processing methods for real-time use cases.
-Multi-echo denoising methods show promise for conventional resting state fMRI analysis, and our goal is to translate, investigate and describe this for real-time fMRI.
-
-You can find more information on this [poster](https://doi.org/10.5281/zenodo.2553256).
-
-Once my Python skills are up to scratch, I'd also like to contribute more to the [awesome tedana project](https://tedana.readthedocs.io/en/latest/).
-
-*More details to follow!*
+To find out more about DataLad, visit these rich resources:
+- [DataLad website](https://www.datalad.org/)
+- [DataLad handbook](http://handbook.datalad.org/en/latest/)
+- [Join the community chat environment](https://matrix.to/#/%23datalad:matrix.org)
+- [The users' forum](https://neurostars.org/search?q=datalad%20category%3A1)
+- [The code base on GitHub](https://github.com/datalad/datalad)
+- [Developer documentation](http://docs.datalad.org/en/stable/)
+- [DataLad tutorials](https://github.com/datalad/tutorials)
 
 ---
 
 <div id='openmrb'></div>
 <br>
+
 ## OpenMR Benelux
 
 ### Background
@@ -95,6 +76,7 @@ Our next event will be a three day program with talks, discussions, workshops, h
 
 <div id='gdpr'></div>
 <br>
+
 ## Neuroimage data sharing under the GDPR
 
 ### Background
@@ -136,13 +118,59 @@ We therefore also want to summarise our project and its outputs and create educa
 We also aim to make this publicly available via a website, and using relatable means of communication like infographics.
 We need help, so if this is you please reach out!  
 
-
 ### Relevant details
 
 - Our [Google Drive folder](https://drive.google.com/drive/folders/1zLEUt5Mjq9frucbpMatoBv5w7H37sZNw?usp=sharing) where we share notes
 - The OHBM [hackathon project topic](https://github.com/ohbm/hackathon2019/issues/47)
 - The [hackathon project update slides](https://docs.google.com/presentation/d/1XEAebPfLFXb2hC2KeQs-mPopUC78Ar4BZ8ZF0h6nhjc/edit#slide=id.p)
 - The [Github issue](https://github.com/CPernet/open-brain-consent/issues/2) for the Open Brain Consent template that we are currently focused on
-- Our [Mattermost chat channel](https://mattermost.brainhack.org/brainhack/channels/open_brain_gdpr). Join the conversation!   
+- Our [Mattermost chat channel](https://mattermost.brainhack.org/brainhack/channels/data-privacy-and-sharing). Join the conversation!   
 
+---
 
+<div id='rtfmri'></div>
+<br>
+
+## Real-time fMRI analysis, quality control and visualisation
+
+### Background
+Using functional magnetic resonance imaging (fMRI) we can acquire images of the blood oxygenation levels in our brain.
+By using a model for how the oxygen concentration in blood vessels in the brain relate to energy consumption due to brain activity, fMRI gives us a proxy measure for actual brain activity that we call the BOLD signal.
+In this project we are interested in acquiring, processing, visualising and using this BOLD signal while the patient or study participant is inside the MRI scanner, i.e. in real-time.
+Real-time brain activity can be used for different applications, including brain-computer interfaces (BCIs), hyperscanning, and neurofeedback.
+Neurofeedback entails showing the person inside the scanner a visual representation of their brain activity, and asking them to regulate this level using the visual feedback.
+Our goal is to investigate the use of real-time fMRI neurofeedback in clinical applications. 
+
+### Focus
+In preparation for such a clinical trial, however, we first have to ensure the quality of the BOLD signal.
+The BOLD signal contains a lot of noise and can be influenced by a number of sources, including participant movement, participant physiology (breathing and heart rate) and scanner artefacts.
+It is important that a robust signal processing pipeline is used to remove such noise sources in real-time when possible.
+It is also important to visualise and check the quality of the acquired data, both in real-time and after the scanning session.
+The focus of this project, and that of my PhD, is to develop new and updated acquisition, processing and quality checking tools to help us improve the quality of the BOLD signal for real-time use.
+
+### Sub-projects
+
+***Real-time fMRI neurofeedback methods - understanding the literature***
+
+How are real-time fMRI neurofeedback researchers processing their participants' BOLD signals? Which methods are they using? Do they report quality checks? Can we investigate this and learn more about what influences the neurofeedback signal and study outcomes?
+By reviewing 128 recent fMRI neurofeedback studies, we set out to answer these questions, and more.
+
+You can find the preprint [here](https://doi.org/10.31219/osf.io/xubhq), some code and data [here](https://github.com/jsheunis/quality-and-denoising-in-rtfmri-nf), and interactively explore the summarised studies [here](https://rtfmri-methods.herokuapp.com/). 
+
+***Real-time (fMRI) quality control***
+
+Loads of researchers have years and years of experience understanding and correcting quality issues in real-time fMRI data.
+Can we collate all of this into a set of best practices? And can we build software tools to make them more accessible to researchers?
+Within the fMRI neurofeedback community we are collaborating on such a Matlab-based software tool: rtQC.
+The toolbox currently needs beta-testers, so please reach out if you are interested.
+
+Find out more about rtQC on this [poster](https://doi.org/10.5281/zenodo.3239084), and check out the code [here](https://github.com/rtQC-group/rtQC).
+
+***Real-time multi-echo fMRI***
+
+For this project, we are specifically interested in developing multi-echo fMRI acquisition and processing methods for real-time use cases.
+Multi-echo denoising methods show promise for conventional resting state fMRI analysis, and our goal is to translate, investigate and describe this for real-time fMRI.
+
+You can find more information on this [poster](https://doi.org/10.5281/zenodo.2553256) and in this [journal article](https://doi.org/10.1016/j.neuroimage.2021.118244)
+
+*More details to follow!*
