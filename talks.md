@@ -3,7 +3,7 @@ layout: page
 title: Talks
 ---
 
-Below is a list of talks that I've given on the topics of fMRI data quality, multi-echo fMRI methods, data and code sharing practices, GDPR-compliant MRI data sharing, and open community building.
+Below is a list of talks/workshops that I've given on the topics of research data management, fMRI data quality, multi-echo fMRI methods, data and code sharing practices, GDPR-compliant MRI data sharing, and open community building.
 
 ##### Link types
 
@@ -16,6 +16,23 @@ Below is a list of talks that I've given on the topics of fMRI data quality, mul
 [<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >]()
 [<img src="https://img.shields.io/badge/-Twitter%20thread-00acee" height="18px" >]()
 
+
+
+Heunis, Stephan, 2021. ***Balancing open data with personal data privacy: a future outlook on MRI data sharing***. Presentation at the [MRI Together Workshop 2021](https://mritogether.github.io/). Virtual online.
+**Links:**
+[<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=cNO7zR1K4pA&list=PLeDygc8TN_J48APEUyle4Ql2uSTc74Nsg&index=13)
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://doi.org/10.6084/m9.figshare.17194958.v1)
+
+
+Heunis, Stephan, 2021. ***Tools for reproducible workflows***. Open talk at the [Chinese Open Science Network](https://open-sci.cn/). Virtual online.
+**Links:**
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://doi.org/10.6084/m9.figshare.17075972.v1)
+
+
+Heunis, S. and Bayrak, Ş., 2021. ***"I’d like to reproduce your results…" and other tales in Reproducible Workflows.*** Workshop at the [OHBM Hackathon 2021 TrainTrack Session](https://ohbm.github.io/hackathon2021/) event. Virtual online.
+**Links:**
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://ohbm.github.io/handson-2021-reproducible-workflows/presentation/ohbm-handson-repro.html#/)
+[<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/ohbm/handson-2021-reproducible-workflows)
 
 Heunis, J.S. 2021. ***Interactive data visualization with Python, Plotly and Dash.*** Demo talk at the [OpenMR Virtual 2021](https://ohbm.github.io/osr2020/) event. Virtual online.
 **Links:** [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=fWxWGC4N9lM&list=PLav5iokutJ6rTGrkTcgGuSpTH7egT4xix&index=7)
