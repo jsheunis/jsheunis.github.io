@@ -13,25 +13,28 @@ title: CV
 
 Things I'm good at:
 - Project management
-- Matlab programming
+- MATLAB programming
 - Real-time fMRI analysis methods
 - Multi-echo fMRI acquisition and analysis methods
 - fMRI data quality control
 - Intricacies of neuroimage data sharing under GDPR
 - Software tools for sharing data and code
 - Open research practices
-
-Things I'm getting better at:
-- Python programming
+- Basic/Intermediate Python programming
 - Jupyter notebooks/lab, Binder
 - Data dashboards with Plotly Dash
 - Scientific data visualisation
-- Github and git
 
-Things I can find my way with:
+Things I'm getting better at:
+- Advanced Python programming
+- git and git annex
+- Unit and integration testing
+- GitHub actions
+- Automated testing and deployment
 - HTML
 - CSS
-- JavaScript
+- JavaScript, VueJS
+- shell scripting (bash/zsh)
 
 ---
 
