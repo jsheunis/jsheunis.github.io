@@ -25,7 +25,7 @@ Previously, my PhD research focused on two topics within the broad field of func
 
 My scientific interest stretches beyond these topics and somewhat more broadly into how we can improve transparency and reproducibility in science.
 I'm particularly interested in developing and sharing tools and methods that make our jobs as researchers easier, while simultaneously improving the scientific record or the way in which it can be queried, summarised and reused.
-This includes tools and processes for code sharing, data sharing, and reproducible analysis environments. 
+This includes tools and processes for code sharing, data sharing/management, and reproducible analysis environments. 
 
 Whenever possible, I try to embed the concepts of collaboration, team science, community-centered project work, and openness into my work. 
 
@@ -45,8 +45,23 @@ I have collaborated on and generated some scientific output related to my resear
 <div id='articles'></div>
 ## Articles
 
-Levitis, E., Praag, C.G. van, Gau, R., Heunis, S., ..., Maumet, C., 2021. ***Centering inclusivity in the design of online conferences.*** PsyArXiv Preprints.
-**Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.31234/osf.io/vj5tu)
+DuPre, E., Salo, T., Ahmed, Z., Bandettini, P.A., Bottenhorn, K.L., Caballero-Gaudes, C., Dowdle, L.T., Gonzalez-Castillo, J., Heunis, S., Kundu, P., Laird, A.R., Markello, R., Markiewicz, C.J., Moia, S., Staden, I., Teves, J.B., Uruñuela, E., Vaziri-Pashkam, M., Whitaker, K., Handwerker, D.A., 2021. ***TE-dependent analysis of multi-echo fMRI with tedana***. Journal of Open Source Software 6, 3669.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.21105/joss.03669.)
+[<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/ME-ICA/tedana) 
+
+
+Gau, R., Noble, S., Heuer, K., Bottenhorn, K.L., Bilgin, I.P., Yang, Y.-F., Huntenburg, J.M., Bayer, J.M.M., Bethlehem, R.A.I., Rhoads, S.A., Vogelbacher, C., Borghesani, V., Levitis, E., Wang, H.-T., Van Den Bossche, S., Kobeleva, X., Legarreta, J.H., Guay, S., Atay, S.M., et. al. 2021. ***Brainhack: Developing a culture of open, inclusive, community-driven neuroscience.*** Neuron 109, 1769–1775.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1016/j.neuron.2021.04.001)
+
+<details>
+  <summary>[show all authors]</summary>
+Gau, R., Noble, S., Heuer, K., Bottenhorn, K.L., Bilgin, I.P., Yang, Y.-F., Huntenburg, J.M., Bayer, J.M.M., Bethlehem, R.A.I., Rhoads, S.A., Vogelbacher, C., Borghesani, V., Levitis, E., Wang, H.-T., Van Den Bossche, S., Kobeleva, X., Legarreta, J.H., Guay, S., Atay, S.M., Varoquaux, G.P., Huijser, D.C., Sandström, M.S., Herholz, P., Nastase, S.A., Badhwar, A., Dumas, G., Schwab, S., Moia, S., Dayan, M., Bassil, Y., Brooks, P.P., Mancini, M., Shine, J.M., O’Connor, D., Xie, X., Poggiali, D., Friedrich, P., Heinsfeld, A.S., Riedl, L., Toro, R., Caballero-Gaudes, C., Eklund, A., Garner, K.G., Nolan, C.R., Demeter, D.V., Barrios, F.A., Merchant, J.S., McDevitt, E.A., Oostenveld, R., Craddock, R.C., Rokem, A., Doyle, A., Ghosh, S.S., Nikolaidis, A., Stanley, O.W., Uruñuela, E., Anousheh, N., Arnatkeviciute, A., Auzias, G., Bachar, D., Bannier, E., Basanisi, R., Basavaraj, A., Bedini, M., Bellec, P., Benn, R.A., Berluti, K., Bollmann, Steffen, Bollmann, Saskia, Bradley, C., Brown, J., Buchweitz, A., Callahan, P., Chan, M.Y., Chandio, B.Q., Cheng, T., Chopra, S., Chung, A.W., Close, T.G., Combrisson, E., Cona, G., Constable, R.T., Cury, C., Dadi, K., Damasceno, P.F., Das, S., De Vico Fallani, F., DeStasio, K., Dickie, E.W., Dorfschmidt, L., Duff, E.P., DuPre, E., Dziura, S., Esper, N.B., Esteban, O., Fadnavis, S., Flandin, G., Flannery, J.E., Flournoy, J., Forkel, S.J., Franco, A.R., Ganesan, S., Gao, S., García Alanis, J.C., Garyfallidis, E., Glatard, T., Glerean, E., Gonzalez-Castillo, J., Gould van Praag, C.D., Greene, A.S., Gupta, G., Hahn, C.A., Halchenko, Y.O., Handwerker, D., Hartmann, T.S., Hayot-Sasson, V., Heunis, S., Hoffstaedter, F., Hohmann, D.M., Horien, C., Ioanas, H.-I., Iordan, A., Jiang, C., Joseph, M., Kai, J., Karakuzu, A., Kennedy, D.N., Keshavan, A., Khan, A.R., Kiar, G., Klink, P.C., Koppelmans, V., Koudoro, S., Laird, A.R., Langs, G., Laws, M., Licandro, R., Liew, S.-L., Lipic, T., Litinas, K., Lurie, D.J., Lussier, D., Madan, C.R., Mais, L.-T., Mansour L, S., Manzano-Patron, J.P., Maoutsa, D., Marcon, M., Margulies, D.S., Marinato, G., Marinazzo, D., Markiewicz, C.J., Maumet, C., Meneguzzi, F., Meunier, D., Milham, M.P., Mills, K.L., Momi, D., Moreau, C.A., Motala, A., Moxon-Emre, I., Nichols, T.E., Nielson, D.M., Nilsonne, G., Novello, L., O’Brien, C., Olafson, E., Oliver, L.D., Onofrey, J.A., Orchard, E.R., Oudyk, K., Park, P.J., Parsapoor, M., Pasquini, L., Peltier, S., Pernet, C.R., Pienaar, R., Pinheiro-Chagas, P., Poline, J.-B., Qiu, A., Quendera, T., Rice, L.C., Rocha-Hidalgo, J., Rutherford, S., Scharinger, M., Scheinost, D., Shariq, D., Shaw, T.B., Siless, V., Simmonite, M., Sirmpilatze, N., Spence, H., Sprenger, J., Stajduhar, A., Szinte, M., Takerkart, S., Tam, A., Tejavibulya, L., Thiebaut de Schotten, M., Thome, I., Tomaz da Silva, L., Traut, N., Uddin, L.Q., Vallesi, A., VanMeter, J.W., Vijayakumar, N., di Oleggio Castello, M.V., Vohryzek, J., Vukojević, J., Whitaker, K.J., Whitmore, L., Wideman, S., Witt, S.T., Xie, H., Xu, T., Yan, C.-G., Yeh, F.-C., Yeo, B.T.T., Zuo, X.-N.
+</details>
+
+
+Levitis, E., Praag, C.G. van, Gau, R., Heunis, S., ..., Maumet, C., 2021. ***Centering inclusivity in the design of online conferences—An OHBM–Open Science perspective.*** GigaScience 10, giab051.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1093/gigascience/giab051)
+[<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.31234/osf.io/vj5tu)
 
 <details>
   <summary>[show all authors]</summary>
@@ -55,8 +70,9 @@ Levitis, E., Praag, C.G. van, Gau, R., Heunis, S., DuPre, E., Kiar, G., Bottenho
 </details>
 
 
-Heunis, S., Breeuwer, M., Caballero-Gaudes, C., Hellrung, L., Huijbers, W., Jansen, J.F., Lamerichs, R., Zinger, S., and Aldenkamp, A.P. 2020. **The effects of multi-echo fMRI combination and rapid T2*-mapping on offline and real-time BOLD sensitivity.** bioRxiv 2020.12.08.416768.
-**Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.1101/2020.12.08.416768)
+Heunis, S., Breeuwer, M., Caballero-Gaudes, C., Hellrung, L., Huijbers, W., Jansen, J.F., Lamerichs, R., Zinger, S., and Aldenkamp, A.P. 2021. **The effects of multi-echo fMRI combination and rapid T2*-mapping on offline and real-time BOLD sensitivity.** NeuroImage 238, 118244.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1016/j.neuroimage.2021.118244)
+[<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.1101/2020.12.08.416768)
 [<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/jsheunis/rt-me-fMRI)
 [<img src="https://img.shields.io/badge/-Twitter%20thread-00acee" height="18px" >](https://twitter.com/fmrwhy/status/1336946297526497283)
 
