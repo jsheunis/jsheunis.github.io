@@ -4,7 +4,7 @@ title: About me
 ---
 
 <div align="center">
-<a href="https://twitter.com/fmrwhy" target="_blank"><img src="/img/twitter_logo.png" alt="twitter" height="30"></a> &nbsp;&nbsp;<a href="https://research.tue.nl/en/persons/js-stephan-heunis" target="_blank"><img src="/img/TUe_logo.png" alt="tue" height="30"></a>
+<a href="https://x.com/fmrwhy" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023_original.svg/240px-X_logo_2023_original.svg.png" alt="x" height="30"></a> &nbsp;&nbsp;<a href="https://mas.to/@jsheunis" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg/240px-Mastodon_logotype_%28simple%29_new_hue.svg.png" alt="mastodon" height="30"></a> &nbsp;&nbsp;<a href="https://www.psychoinformatics.de/lab-members.html" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_des_Forschungszentrums_J%C3%BClich_seit_2018.svg/320px-Logo_des_Forschungszentrums_J%C3%BClich_seit_2018.svg.png" alt="fzj" height="30"></a>
 </div>
 
 ---

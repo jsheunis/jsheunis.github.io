@@ -53,7 +53,7 @@ Szczepanik, M., Wagner, A.S., Heunis, S. Waite, L.K., Eickhoff, S.B. and Hanke, 
 **Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1007/s12021-024-09665-7)
 
 
-Kalantari, A., Szczepanik, M., Heunis, S., Mönch, C., Hanke, M., Wachtler, T. and Aswendt, M. 2023. How to establish and maintain a multimodal animal research dataset using DataLad. Nature Scientific Data 10, 357.
+Kalantari, A., Szczepanik, M., Heunis, S., Mönch, C., Hanke, M., Wachtler, T. and Aswendt, M. 2023. ***How to establish and maintain a multimodal animal research dataset using DataLad***. Nature Scientific Data 10, 357.
 **Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1038/s41597-023-02242-8)
 
 
