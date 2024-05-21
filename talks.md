@@ -18,6 +18,38 @@ Below is a list of talks/workshops that I've given on the topics of research dat
 
 
 
+
+
+Heunis, Stephan, 2024. ***Technical challenges to data sharing***. Webinar presentation for the [GLiMR COST Action](https://glimr.eu/) group. Virtual online.
+**Links:**
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://jsheunis.github.io/glimr-2024/#/)
+
+
+Heunis, Stephan, 2023. ***Research Data Management with DataLad***. Invited talk at the [Einstein Center for Neuroscience](https://www.ecn-berlin.de/home.html). Virtual online.
+**Links:**
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://jsheunis.github.io/einstein-center-talk/#/)
+
+
+Heunis, Stephan, 2023. ***DataLad workshop*** at the Dutch [Open Science Festival](https://www.openscience.nl/open-science-festival). Rotterdam, The Netherlands
+**Links:**
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://jsheunis.github.io/osfestival-nl-datalad/#/)
+
+
+Heunis, Stephan, 2023. ***Research Data Management with DataLad***. Invited talk at the [MRI Together Workshop](https://mritogether.esmrmb.org/24m/). Virtual online.
+**Links:**
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://jsheunis.github.io/mritogether23-datalad/#/)
+
+
+Heunis, Stephan, 2022. ***Reproducible Data Management with DataLad***. Invited workshop at the [Brainhack Nordic 2022](https://openneuropet.github.io/brainhack/) event. Copenhagen, Denmark.
+**Links:**
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://jsheunis.github.io/brainhack-nordic-datalad/#/)
+
+
+Heunis, Stephan, 2022. ***Tools for reproducible workflows***. Invited keynote talk at the [Brainhack Krakow 2022](https://brainhack.org/2022/09/18/krakow.html) event. KraKow,  Poland.
+**Links:**
+[<img src="https://img.shields.io/badge/-Slides-brightgreen" height="18px">](https://jsheunis.github.io/brainhack-krakow-talk/#/)
+
+
 Heunis, Stephan, 2021. ***Balancing open data with personal data privacy: a future outlook on MRI data sharing***. Presentation at the [MRI Together Workshop 2021](https://mritogether.github.io/). Virtual online.
 **Links:**
 [<img src="https://img.shields.io/badge/-Video-blueviolet" height="18px" >](https://www.youtube.com/watch?v=cNO7zR1K4pA&list=PLeDygc8TN_J48APEUyle4Ql2uSTc74Nsg&index=13)

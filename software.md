@@ -2,9 +2,17 @@
 layout: page
 title: Software
 software-list:
+  - name: DataLad
+    desc: Decentralized research data management
+    url: https://github.com/datalad
+    img: /img/datalad_logo.png
   - name: DataLad Catalog
     desc: Create a user-friendly data browser from structured metadata
     url: https://github.com/datalad/datalad-catalog
+    img: /img/datalad_logo.png
+  - name: SHACL-Vue
+    desc: User interfaces for data viewing and editing, automated from SHACL
+    url: https://github.com/psychoinformatics-de/shacl-vue
     img: /img/datalad_logo.png
   - name: fMRwhy
     desc: BIDS-compatible fMRI analysis with SPM12 and MATLAB

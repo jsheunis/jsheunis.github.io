@@ -18,6 +18,8 @@ title: Research
 
 My current research and engineering work is with the [Psychoinformatics Group](https://www.psychoinformatics.de/index.html) at the [INM-7, Forschungszentrum Jülich](https://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html), where we develop software and tools for decentralised research data management. This mainly involves [DataLad](https://www.datalad.org/).
 
+I work at the intersection of software engineering, FAIR and decentralized data management, metadata-driven user applications, and open and inclusive research practices, where I focus on building interoperable tools that span all of these domains. In my current work I use version control systems, metadata, web frameworks, and semantic web technologies to build decentralized data catalogs that make datasets discoverable and accessible, even with considerable variation in dataset size, host location, data privacy regulations, level of sensitivity (personal data), storage infrastructure, and data use terms.
+
 Previously, my PhD research focused on two topics within the broad field of functional magnetic resonance imaging (fMRI) analysis:
 
 1. Developing new signal processing methods the improve the quality of real-time functional MRI signals, for use in clinical applications like neurofeedback
@@ -29,7 +31,7 @@ This includes tools and processes for code sharing, data sharing/management, and
 
 Whenever possible, I try to embed the concepts of collaboration, team science, community-centered project work, and openness into my work. 
 
-I have collaborated on and generated some scientific output related to my research interests. Below, I'll try to list most of the currently relevant ones with links to related content. These outputs often relate to specific [projects](projects.md) or [software](software.md) tools, for which I provide more information on the respective site pages.  
+I have collaborated on and generated some scientific output related to my research interests. Below, I'll try to list most of the currently relevant ones with links to related content. These outputs often relate to specific [software](software.md) tools.
 
 ##### Link types
 
@@ -43,10 +45,28 @@ I have collaborated on and generated some scientific output related to my resear
 [<img src="https://img.shields.io/badge/-Twitter%20thread-00acee" height="18px" >]()
 
 <div id='articles'></div>
+
+
 ## Articles
 
+Szczepanik, M., Wagner, A.S., Heunis, S. Waite, L.K., Eickhoff, S.B. and Hanke, M. 2024. ***Teaching Research Data Management with DataLad: A Multi-year, Multi-domain Effort***. Neuroinformatics.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1007/s12021-024-09665-7)
+
+
+Kalantari, A., Szczepanik, M., Heunis, S., Mönch, C., Hanke, M., Wachtler, T. and Aswendt, M. 2023. How to establish and maintain a multimodal animal research dataset using DataLad. Nature Scientific Data 10, 357.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1038/s41597-023-02242-8)
+
+
+Mara van der Meulen, Simone Dobbelaar, Lina van Drunen, Stephan Heunis, Marinus H. van IJzendoorn, Neeltje E. Blankenstein, and Eveline A. Crone. 2023. ***Transitioning from childhood into adolescence: A comprehensive longitudinal behavioral and neuroimaging study on prosocial behavior and social inclusion***. NeuroImage 284.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.1016/j.neuroimage.2023.120445)
+
+
+Achterberg, M., Mulder, J., Dobbelaar, S., Heunis, S., & Crone, E. 2022. ***Individual differences in developmental trajectories of social emotion regulation from childhood to emerging adolescence***. 
+**Links:** [<img src="https://img.shields.io/badge/-Preprint-blue" height="18px">](https://doi.org/10.17605/OSF.IO/BYN7R)
+
+
 DuPre, E., Salo, T., Ahmed, Z., Bandettini, P.A., Bottenhorn, K.L., Caballero-Gaudes, C., Dowdle, L.T., Gonzalez-Castillo, J., Heunis, S., Kundu, P., Laird, A.R., Markello, R., Markiewicz, C.J., Moia, S., Staden, I., Teves, J.B., Uruñuela, E., Vaziri-Pashkam, M., Whitaker, K., Handwerker, D.A., 2021. ***TE-dependent analysis of multi-echo fMRI with tedana***. Journal of Open Source Software 6, 3669.
-**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.21105/joss.03669.)
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://doi.org/10.21105/joss.03669)
 [<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/ME-ICA/tedana) 
 
 
@@ -127,8 +147,23 @@ Heunis, S., Besseling, R., Lamerichs, R., de Louw, A., Breeuwer, M., Aldenkamp, 
 Besseling, R., Lamerichs, R., Michels, B., Heunis, S., de Louw, A., Tijhuis, A., Bergmans, J., Aldenkamp, B., 2018. ***Functional network abnormalities consistent with behavioral profile in Autism Spectrum Disorder.*** Psychiatry Research: Neuroimaging 275, 43–48. 
 **Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px">](https://doi.org/10.1016/j.pscychresns.2018.02.006)
 
+
+
 <div id='posters'></div>
 ## Conference Posters
+
+Szczepanik, M., Heunis, S., Mönch, C., Wagner, A., Waite, A. Q., Waite, L., & Hanke, M. 2023. Distributed data management for large collaborative projects: DataLad ecosystem in Collaborative Research Center 1451. INCF Neuroinformatics Assembly 2023.
+**Links:** [<img src="https://img.shields.io/badge/-Poster-orange" height="18px">](https://doi.org/10.5281/zenodo.8355962)
+
+
+Stefano Moia, Hao-Ting Wang, Anibal S. Heinsfeld, Dorota Jarecka, Yu Fang Yang, Stephan Heunis, et al. 2024. ***Proceedings of the OHBM Brainhack 2022***. Aperture Neuro.
+**Links:** [<img src="https://img.shields.io/badge/-Article-red" height="18px" >](https://dx.doi.org/10.52294/001c.92760)
+
+
+Stephan Heunis, Christian Mönch, Benjamin Poldraxk, and Michael Hanke. 2022. ***DataCat: generate a user-friendly data browser from structured metadata***. Poster and software demonstration at the 2022 annual meeting of the Organization of Human Brain Mapping. Glasgow, Scotland.
+**Links:** [<img src="https://img.shields.io/badge/-Poster-orange" height="18px">](https://github.com/jsheunis/ohbm-2022/blob/main/poster/ohbm-poster-2022-datacat-jsheunis.pdf)
+[<img src="https://img.shields.io/badge/-Code-yellow" height="18px" >](https://github.com/jsheunis/ohbm-2022/tree/main)
+
 
 Heunis, S., Hellrung, L., Meer, V.D., Bergert, S., Sladky, R., Pamplona, G.S.P., Scharnowski, F., Koush, Y., Mehler, D., Falcon, C., Gispert, J.D., Molinuevo, J.L., Skouras, S., 2019. ***rtQC: an open-source toolbox for real-time fMRI quality control.***  Poster and software demonstration at the 2019 annual meeting of the Organization of Human Brain Mapping. Rome, Italy.
 **Links:** [<img src="https://img.shields.io/badge/-Poster-orange" height="18px">](https://doi.org/10.5281/zenodo.3239084)
